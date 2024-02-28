@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    }
+.navbar{
+    border:0px solid black;
+    display: flex;
+    color:1D24CA;
+    background-color:white;
+    font-style:italic;
+    justify-content:space-between;
+    padding:0px 30px 0px 30px;
+    height: 72px;
+    width:auto;
+    align-items: center;
+    }
+ul{
+    list-style-type:none;
+    }
+a{
+    text-decoration:none;
+    color:1D24CA;
+    }
+a:hover{
+    color:red;
+    font-size:20px;
+    }
+li{
+        display:inline-block;  
+        position:right; 
+         padding-right:10px;
+}
+.image{
+    background-image:url("https://exchange.nottingham.ac.uk/content/uploads/employee-hub-banner.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+    }
+footer{
+    margin-bottom:0px;
+    border-top:2px solid black;
+    text-align:center;
+    }
